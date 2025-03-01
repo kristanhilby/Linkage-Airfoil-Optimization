@@ -1,6 +1,7 @@
 # Linkage Airfoil Optimization
-
-![Alt text](github_image.png)
+<p align="center">
+    <img src="./github_image.png" width="800" />
+</p>
 
 ## Overview
 This script performs an aerodynamic optimization process for airfoils and evaluates their aerodynamic efficiency. It generates airfoil geometries from optimization results, computes aerodynamic performance metrics, and visualizes the aerodynamic efficiency (CL/CD) against the angle of attack.
