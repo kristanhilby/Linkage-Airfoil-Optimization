@@ -26,6 +26,8 @@ More information about NeuralFoil can be found at the official repository: [Neur
 
 2. Modify parameters such as `trailing_edge_smooth_factor`, initial conditions (`x0`), Reynolds number (`Re`), and `alpha` range to explore different conditions.
 
+3. New initializations (`x0`) can be generated using the [Onshape File](https://cad.onshape.com/documents/719e17d0922a535027d8e256/w/5e29fd0e1497d5df12605f99/e/da4c96dbb3737816e4659c28?renderMode=0&uiState=67c32f97fba0b20ad7ec9be6) by changing the link lengths under the Variable Table.  
+
 ## Output
 - **Airfoil Data**: Airfoil geometries stored in variables `coords_1`, `coords_2`, `coords_3`.
 - **Graph**: `initialization_graph.svg` showing the aerodynamic efficiency (CL/CD) vs. angle of attack.
