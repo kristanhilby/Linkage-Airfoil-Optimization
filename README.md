@@ -28,12 +28,5 @@ More information about NeuralFoil can be found at the official repository:[Neura
 2. Modify parameters such as `trailing_edge_smooth_factor`, initial conditions (`x0`), Reynolds number (`Re`), and `alpha` range to explore different conditions.
 
 ## Output
-- **Graph**: `initialization_graph.svg` showing the aerodynamic efficiency (CL/CD) vs. angle of attack.
 - **Airfoil Data**: Airfoil geometries stored in variables `coords_1`, `coords_2`, `coords_3`.
-
-## Example
-Run the notebook as is to view the optimizer at work. `result_1.x`, `result_2.x`, `result_3.x` will automatically be populated. 
-
-## License
-Specify your license here (e.g., MIT, GPL, etc.).
-
+- **Graph**: `initialization_graph.svg` showing the aerodynamic efficiency (CL/CD) vs. angle of attack.
