@@ -1,5 +1,7 @@
 # Linkage Airfoil Optimization
 
+![Alt text](github_image.png)
+
 ## Overview
 This script performs an aerodynamic optimization process for airfoils and evaluates their aerodynamic efficiency. It generates airfoil geometries from optimization results, computes aerodynamic performance metrics, and visualizes the aerodynamic efficiency (CL/CD) against the angle of attack.
 
@@ -8,7 +10,7 @@ This script performs an aerodynamic optimization process for airfoils and evalua
 - Generates airfoil coordinates using `generate_airfoil_dat_from_points` with optional visualization and smoothing.
 - Performs aerodynamic analysis on the generated airfoils using `nf.get_aero_from_coordinates`.
 - Plots the aerodynamic efficiency (CL/CD) over a range of angles of attack.
-- Saves the resulting plot as an SVG file (`initialization_graph.svg`).
+- Visualize the results
 
 ## Dependencies
 Ensure the following Python libraries are installed:
@@ -21,16 +23,15 @@ More information about NeuralFoil can be found at the official repository:[Neura
 1. Run the script to:
    - Generate airfoil geometries from optimization results (`result_1.x`, `result_2.x`, `result_3.x`).
    - Compute and plot aerodynamic efficiency over a range of angles of attack.
-   - Save the resulting plot as an SVG file.
 
-2. Modify parameters such as `trailing_edge_smooth_factor`, Reynolds number (`Re`), and `alpha` range to explore different conditions.
+2. Modify parameters such as `trailing_edge_smooth_factor`, initial conditions (`x0`), Reynolds number (`Re`), and `alpha` range to explore different conditions.
 
 ## Output
 - **Graph**: `initialization_graph.svg` showing the aerodynamic efficiency (CL/CD) vs. angle of attack.
 - **Airfoil Data**: Airfoil geometries stored in variables `coords_1`, `coords_2`, `coords_3`.
 
 ## Example
-To integrate this script into an optimization pipeline, modify `result_X.x` values based on optimization outputs and rerun the script.
+Run the notebook as is to view the optimizer at work. `result_1.x`, `result_2.x`, `result_3.x` will automatically be populated. 
 
 ## License
 Specify your license here (e.g., MIT, GPL, etc.).
