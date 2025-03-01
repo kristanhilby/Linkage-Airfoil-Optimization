@@ -1,6 +1,6 @@
 # Linkage Airfoil Optimization
 <p align="center">
-    <img src="./github_image.png" width="800" />
+    <img src="./media/github_image.png" width="800" />
 </p>
 
 ## Overview
