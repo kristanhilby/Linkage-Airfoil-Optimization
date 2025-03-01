@@ -17,7 +17,7 @@ Ensure the following Python libraries are installed:
 ```bash
 pip install numpy matplotlib neuralfoil
 ```
-More information about NeuralFoil can be found at the official repository:[NeuralFoil GitHub](https://github.com/peterdsharpe/NeuralFoil).
+More information about NeuralFoil can be found at the official repository: [NeuralFoil GitHub](https://github.com/peterdsharpe/NeuralFoil).
 
 ## Usage
 1. Run the script to:
