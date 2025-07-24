@@ -19,6 +19,13 @@ pip install numpy matplotlib neuralfoil
 ```
 More information about NeuralFoil can be found at the official repository: [NeuralFoil GitHub](https://github.com/peterdsharpe/NeuralFoil).
 
+Tested with:
+- Python 3.7.12
+- `numpy` 1.21.6
+- `scipy` 1.7.3
+- `matplotlib` 3.5.3
+- `neuralfoil` 0.1.4
+
 ## Usage
 1. Run the script to:
    - Generate airfoil geometries from optimization results (`result_1.x`, `result_2.x`, `result_3.x`).
